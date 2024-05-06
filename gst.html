@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="gst.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@500&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="menubar">
+          <div class="menu">
+            <a href="#home" class="links">Home</a>
+            <a href="#about" class="links">About</a>
+            <a href="#contact" class="links">Contact</a>
+            <a href="#services" class="links">Services</a>
+          </div>
+        </div>
+
+        <div class="logo">
+          <img src="images/logo.jpg" alt="" />
+        </div>
+      </div>
+
+      <!-- Main Section -->
+
+      <div class="content" id="about">
+        <h1>Customized Gifts</h1>
+        <img src="./images/mainimage.jpg" />
+        <p>
+          It isn't the size of the gift that matters<span></span> But the size
+          of the heart that gives it
+        </p>
+      </div>
+    </div>
+
+    <div class="bill" id="services">
+      <h1>Order Details</h1>
+
+      <div class="field">
+        <h1>Name</h1>
+        <input type="text" id="name" placeholder="Enter name" />
+      </div>
+
+      <div class="field">
+        <h1>phone</h1>
+        <input type="phone" id="mobile" placeholder="Enter phone No" />
+      </div>
+
+      <div class="field">
+        <h1>Email</h1>
+        <input type="email" id="email" placeholder="Enter email" />
+      </div>
+
+      <div class="field">
+        <h1>Address</h1>
+        <input type="address" id="address" placeholder="Enter address" />
+      </div>
+
+      <h1>Available Gifts</h1>
+
+      <div class="field">
+        <h1>Gadgets</h1>
+        <input type="text" id="gadgets" placeholder="Enter the Amount" />
+      </div>
+
+      <div class="field">
+        <h1>Jewel</h1>
+        <input type="text" id="jewel" placeholder="Enter the Amount" />
+      </div>
+
+      <div class="field">
+        <h1>Hoodies</h1>
+        <input type="text" id="hoodies" placeholder="Enter the Amount" />
+      </div>
+
+      <div class="field">
+        <h1>Imported</h1>
+        <input type="text" id="imported" placeholder="Enter the Amount" />
+      </div>
+
+      <div class="field">
+        <h1>Perfumes</h1>
+        <input type="text" id="perfumes" placeholder="Enter the Amount" />
+      </div>
+
+      <div class="field">
+        <h1>GST(%)</h1>
+        <input type="text" id="GST" placeholder="Enter the GST(%)" />
+      </div>
+
+      <button id="payment" onclick="calculate()"><h2>Payment</h2></button>
+
+      <h1 id="answer"></h1>
+
+      <h1 id="final"></h1>
+    </div>
+
+    <!-- Footer Section -->
+
+    <div class="footer" id="contact">
+      <div class="info">
+        <h1>To Contact Us</h1>
+      </div>
+
+      <div class="social">
+        <div class="footer_info">
+          <div class="logo1">
+            <img src="./images/logo.jpg" alt="" />
+          </div>
+          <div class="foot_cont">
+            <div class="ha">
+              <h1>HOME</h1>
+              <h1>ABOUT</h1>
+            </div>
+            <div class="cs">
+              <h1>CONTACT</h1>
+              <h1>SERVICES</h1>
+            </div>
+          </div>
+        </div>
+        <div class="symbol">
+          <img src="./images/gmail.png" alt="" />
+          <img src="./images/fb.jpg" alt="" />
+          <img src="./images/download.jpg" />
+          <img src="./images/twitter.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <script src="gst.js"></script>
+  </body>
+</html>
